@@ -1103,6 +1103,8 @@ background: #815AF0;
 box-shadow: 0px 10px 25px #CCD9FF;
 border-radius: 12px;
 padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
 }
 .lets-try2{
   background: #ffffff;
