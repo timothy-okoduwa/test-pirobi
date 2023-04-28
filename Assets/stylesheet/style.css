@@ -43,7 +43,7 @@
   font-size: 20px;
   color: #ffffff;
 }
-.zigzag {
+/* .zigzag {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -155,16 +155,16 @@ a {
   width: 100%;
   height: 100%;
   transition: 1.2s;
-}
-
+} */
+/* 
 .nav-menu.active {
-  /* left: 0; */
+ 
   top: 77px;
 }
 
 .nav-item {
   margin: 2.5rem 0;
-}
+} */
 
 .hamburger {
   display: block;
@@ -198,10 +198,28 @@ a {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* 
-.webinarDiagram{
+ .check {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(0, 0, 0) !important;
+  margin-right: 50px;
+}
 
-} */
+
+@media screen and (min-width:992px){
+ .badrgf{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+}
+
+
+
+
 
 a {
   text-decoration: none;
@@ -1040,16 +1058,15 @@ a {
   padding-top: 30px;
 }
 
-.oklir{
+.oklir {
   font-family: 'Lexend';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-text-align: center;
-color: #000000;
-
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
 }
-.paymentsgg{
+.paymentsgg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1058,184 +1075,432 @@ color: #000000;
   /* background-color: red; */
   height: 100%;
 }
-.Monthly{
+.Monthly {
   font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-width: 150px;
-height: 45px;
-/* background: #00000000; */
-border-radius: 38.0609px;
-color: #000000;
-outline: none;
-border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 150px;
+  height: 45px;
+  /* background: #00000000; */
+  border-radius: 38.0609px;
+  color: #000000;
+  outline: none;
+  border: none;
 }
-.active{
+.active {
   font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-width: 150px;
-height: 45px;
-background: #000000;
-border-radius: 38.0609px;
-color: #FFFFFF;
-outline: none;
-border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 150px;
+  height: 45px;
+  background: #000000;
+  border-radius: 38.0609px;
+  color: #ffffff;
+  outline: none;
+  border: none;
 }
-.Yearly{
+.Yearly {
   font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-width: 150px;
-height: 45px;
-/* background: #00000000; */
-border-radius: 38.0609px;
-/* color: #000000; */
-outline: none;
-border: 1px solid #00000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 150px;
+  height: 45px;
+  /* background: #00000000; */
+  border-radius: 38.0609px;
+  /* color: #000000; */
+  outline: none;
+  border: 1px solid #00000000;
 }
-.lets-try{
-/* height: 725px; */
-background: #815AF0;
-box-shadow: 0px 10px 25px #CCD9FF;
-border-radius: 12px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
+.lets-try {
+  /* height: 725px; */
+  background: #815af0;
+  box-shadow: 0px 10px 25px #ccd9ff;
+  border-radius: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+    transition: background-color 0.5s ease;
 }
-.lets-try2{
+
+.lets-try2 {
   background: #ffffff;
-box-shadow: 0px 10px 25px #ccd9ff00;
-border-radius: 12px;
-padding-bottom: 10px;
+  box-shadow: 0px 10px 25px #ccd9ff00;
+  border-radius: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: background-color 0.5s ease;
 }
-.pro{
+.parent:hover .lets-try:hover {
+  background-color: #815af0;
+  box-shadow: 0px 10px 25px #ccd9ff;
+}
+.parent:hover .lets-try:hover .pro {
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 25px;
+  color: #ffffff;
+}
+.parent:hover .lets-try:hover .ideal {
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.parent:hover .lets-try:hover .price {
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.parent:hover .lets-try:hover .png {
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.parent:hover .lets-try:hover .getStartednn {
+   font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  outline: none;
+  border: none;
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #815af0;
+  border-radius: 4px;
+  color: #815af0;
+}
+.parent:hover .lets-try {
+  background-color: white;
+    box-shadow: 0px 10px 25px #ccd9ff00;
+}
+.parent:hover .lets-try .pro{
   font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-padding-top: 25px;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 25px;
+  color: #000000;
+}
+.parent:hover .lets-try .ideal{
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000000;
+}
+.parent:hover .lets-try .price{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 20px;
+  color: #000000;
+}
+.parent:hover .lets-try .png{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.parent:hover .lets-try .getStartednn{
+   font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  outline: none;
+  border: none;
+  margin-top: 18px;
+  background: #ffffff00;
+  border: 1px solid #815af0;
+  border-radius: 4px;
+  color: #815af0;
+}
+
+
+
+
+
+
+.lets-try2:hover {
+  background: #815af0;
+  box-shadow: 0px 10px 25px #ccd9ff;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
-.pro2{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-padding-top: 25px;
-color: #000000;
 
-}
-.ideal{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-margin-top: 10px;
-color: #F7F8F9;
-}
-.ideal2{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-margin-top: 10px;
-color: #64748B;
-}
-.price{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-margin-top: 20px;
-color: #FFFFFF;
-}
-.price2{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-margin-top: 40px;
-color: #000000;
-}
-.price3{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-margin-top: 20px;
-color: #000000;
-}
-.getStartednn{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-width: 100%;
-text-align: center;
-height: 54px;
-outline: none;
-border: none;
-margin-top: 18px;
-background: #FFFFFF;
-border-radius: 4px;
-color: #815AF0;
-}
-.getStarted22{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-width: 100%;
-text-align: center;
-height: 54px;
-outline: none;
-border: none;
-margin-top: 18px;
-background: #ffffff00;
-border: 1px solid #815AF0;
-border-radius: 4px;
-color: #815AF0;
-}
-.png{
-  font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
 
+/* Hover effect for lets-try */
+.lets-try:hover {
+  background-color: #815af0;
 }
-.drugs{
+
+
+.lets-try2:hover .pro2{
+   font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 25px;
+  color: #ffffff;
+}
+.lets-try2:hover .ideal2{
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.lets-try2:hover .price2{
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+.lets-try2:hover .price3{
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.lets-try2:hover .getStarted22{
+ font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  outline: none;
+  border: none;
+  margin-top: 18px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #815af0;
+}
+.lets-try2:hover .pngb{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.pro {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 25px;
+  color: #ffffff;
+}
+.pro2 {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 25px;
+  color: #000000;
+}
+.ideal {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #f7f8f9;
+}
+.ideal2 {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #64748b;
+}
+
+.price {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.price2 {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 40px;
+  color: #000000;
+}
+.price3 {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 20px;
+  color: #000000;
+}
+.getStartednn {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  outline: none;
+  border: none;
+  margin-top: 18px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #815af0;
+}
+.getStarted22 {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  outline: none;
+  border: none;
+  margin-top: 18px;
+  background: #ffffff00;
+  border: 1px solid #815af0;
+  border-radius: 4px;
+  color: #815af0;
+}
+.png {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.drugs {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
-.closet{
+.closet {
   /* margin-right: 8px; */
-
 }
-.pngb{
-    font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #000000;
+.pngb {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
 }
-.pngg{
-    font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #A0ABBB;
+.pngg {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a0abbb;
 }
 
 .secondDiv {
   display: none;
 }
-.overagain{
+.overagain {
   padding-top: 140px;
+}
+
+.okoklifmew{
+  font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #FFFFFF;
+width: 150px;
+height: 42px;
+background: #815AF0;
+border-radius: 6px;
+outline: none;
+border: none;
+}
+.wikorutygh{
+  /* background-color: red; */
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  text-align: center !important;
+  margin-bottom: -50px !important;
+  
+}
+.burking{
+  width: 90px;
+height: 90px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #ffffff;
+}
+.btn-close{
+  background-color: #C9CBD3;
+  height: 10px;
+  width: 10px;
+  font-size: 10px;
+  color: white !important;
+  border-radius: 50%;
+  margin-top: -70px !important;
+}
+.modal-header{
+  /* background-color: red !important; */
+  border-bottom: none !important;
+}
+.modal-dialog{
+  /* background-color: red !important; */
+  display: flex !important;
+flex-direction: column !important;
+}
+.modal-content{
+background-color: rgb(255, 255, 255);
+z-index: -1;
+}
+.grtpoiyugh{
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+text-align: center;
+display: flex;
+justify-content: center !important;
+color: #000000;
+width: 100%;
 }
