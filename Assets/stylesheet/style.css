@@ -1479,7 +1479,8 @@ background: #ffffff;
   font-size: 10px;
   color: white !important;
   border-radius: 50%;
-  margin-top: -70px !important;
+  margin-top: -110px !important;
+  margin-right: 15px !important;
 }
 .modal-header{
   /* background-color: red !important; */
@@ -1493,7 +1494,12 @@ flex-direction: column !important;
 .modal-content{
 background-color: rgb(255, 255, 255);
 z-index: -1;
+border-radius:20px !important ;
+border: none !important;
 }
+
+
+
 .grtpoiyugh{
 
 font-family: 'Lexend';
